@@ -145,7 +145,7 @@ h1 img {
 
 h2 {
 	text-align: center;
-	font-size: 2.1em;
+	font-size: 2.5em;
 	margin-bottom: 20px;
 	color: #333;
 	padding-bottom: 10px;
@@ -164,10 +164,11 @@ h2 {
 }
 
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 600px) {
 	h2 {
 		max-width: 80%;
 		line-height: 1.1;
+		font-size:8.5vw;
 	}
 	.participants_h2{
 		font-size: 1.8em;
