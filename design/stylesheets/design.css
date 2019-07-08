@@ -140,10 +140,15 @@ header h1 img {
 		-moz-opacity:0.7;                 /* FF lt 1.5, Netscape */
 		-khtml-opacity: 0.7;              /* Safari 1.x */
 	}
+	.header_bn{
+		position:absolute;
+		bottom:0%;
+		left:35%;
+	}
 	.bn {
-		width:40%;
+		width: 50%;
 		height: auto;
-		margin-bottom: 30px;
+		margin-bottom: 20px;
 	}
 }
 
