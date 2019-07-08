@@ -59,6 +59,8 @@ header h1 img {
 /* ソーシャルボタンの設定 */
 
 @media screen and (min-width: 1024px) {
+	
+
 	.sbtn {
 		position: absolute;
 		top: 60px;
@@ -92,6 +94,9 @@ header h1 img {
 }
 
 @media screen and (max-width: 1023px) {
+	.childHeader{
+		padding-top: 60px;
+	}
 	.sbtn {
 		display: none;
 	}
@@ -130,6 +135,13 @@ header h1 img {
 		-ms-filter: "alpha(opacity=70)";  /* ie 8 */
 		-moz-opacity:0.7;                 /* FF lt 1.5, Netscape */
 		-khtml-opacity: 0.7;              /* Safari 1.x */
+	}
+
+	.bn {
+		width: 100%;
+		height: auto;
+		margin:0 auto;
+	}
 	}
 }
 
