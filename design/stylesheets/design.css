@@ -59,6 +59,11 @@ header h1 img {
 /* ソーシャルボタンの設定 */
 
 @media screen and (min-width: 1024px) {
+	.header_bn{
+		position:absolute;
+		bottom:0%;
+		left:44%;
+	}
 	.bn {
 		width: 100%;
 		height: auto;
@@ -146,7 +151,7 @@ header h1 img {
 		left:35%;
 	}
 	.bn {
-		width: 50%;
+		width: calc(40% + 12vw);
 		height: auto;
 		margin-bottom: 20px;
 	}
