@@ -59,7 +59,11 @@ header h1 img {
 /* ソーシャルボタンの設定 */
 
 @media screen and (min-width: 1024px) {
-	
+	.bn {
+		width: 100%;
+		height: auto;
+		margin: 60px auto;
+	}
 
 	.sbtn {
 		position: absolute;
@@ -136,11 +140,10 @@ header h1 img {
 		-moz-opacity:0.7;                 /* FF lt 1.5, Netscape */
 		-khtml-opacity: 0.7;              /* Safari 1.x */
 	}
-
 	.bn {
-		width: 100%;
+		width: 60%;
 		height: auto;
-		margin: 60px;
+		margin-bottom: 30px;
 	}
 }
 
