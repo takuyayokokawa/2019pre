@@ -65,7 +65,7 @@ header h1 img {
 		left:44%;
 	}
 	.bn {
-		width: 100%;
+		width: calc(20% + 5vw);
 		height: auto;
 		margin: 60px auto;
 	}
