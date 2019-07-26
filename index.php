@@ -25,9 +25,12 @@
     <meta name="keywords" content="早稲田,早稲田祭,2019,早稲田大学,早大,早稲田祭2019の公式サイト。
     ,学園祭,大学,waseda,wasedasai">
 	<meta name="theme-color" content="#8c82af">
-	<script type="text/javascript" src="vote.js"></script>
+
 </head>
+
+
 <body>
+
     <section class="childHeader">
         <h1><a href="index.html"><img src="design/images/logo-white.svg" width="500" alt="早稲田祭2019 公式サイト"></a></h1>
     </section>
@@ -55,76 +58,68 @@
         </ul>
 	</nav>
 	
-<form name = "voteForm" action = "vote.php" method = "post">
-	<input type = "hidden" name = "vote" value = "test">
-</form>
-<form name = "voteForm" action = "vote.php" method = "post">
-	<input type = "hidden" name = "vote" value = "test">
-</form>
-<script src = "vote.js">
+
 
 <!--[if lt IE 9]>
-<script src="http://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>script src="http://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js">
+<script src="http://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+script src="http://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js">
 </script>
 <![endif]-->
-<body>
-<div class="content_main">
-<div class="wrapper">
-<h1>公式テーマソング投票</h1>
-</div>
-</div>
-<div class="wrapper1">
-<div class="left">
-<h2>「早稲田祭2015」公式テーマソング投票開始！</h2>
-<p>「早稲田祭2015」公式テーマソングの投票が始まりました！多数の応募の中、早稲田祭運営スタッフによる1次選考を通過したのは以下の4つの楽曲です。「誇りが彩る、都の西北」をキャッチコピーに掲げ、早稲田に関わる人々の様々な「誇り」によって彩られる「早稲田祭2015」にふさわしいと思う1曲への投票をよろしくお願いします！</p>
-<h2>「Shine!!!」TIME PARADOX LAND</h2>
-<div class="logo_f">
-<iframe frameborder="0" height="213.75px" src="https://www.youtube.com/embed/L7K8bNlVe7M" width="360px"></iframe>
-</div>
-<h3>アーティストから一言</h3>
-<p>この曲は、誰もが誇りを持てるようにという応援ソングです。作詞作曲からレコーディングまで3人で頑張って作ったのでぜひ聴いてほしいです！よろしくお願いします！</p>
-<p>歌詞は<a href="/2015/themesong_vote/shine/">こちら</a>から</p>
-<input type="button" onClick="vote('Shine(TIME PARADOX LAND)')" value="この曲に投票する">
-<h2>「アンカー」the Whole Nine Yards</h2>
-<div class="logo_f">
-<iframe frameborder="0" height="213.75px" src="https://www.youtube.com/embed/2ZE6VBfwHEc" width="360px"></iframe>
-</div>
-<h3>アーティストから一言</h3>
-<p>夢を追いながら人は必ず不安と戦っています。そこで立ち止まることなく、自分の意志と仲間の支えを誇りに最後まで走り切ってほしいと思い「アンカー」を書きました。</p>
-<p>歌詞は<a href="/2015/themesong_vote/anchor/">こちら</a>から</p>
-<input type="button" onClick="vote('アンカー(the Whole Nine Yards)')" value="この曲に投票する">
-<h2>「彩りの旋律」Rush Works</h2>
-<div class="logo_f">
-<iframe frameborder="0" height="213.75px" src="https://www.youtube.com/embed/K2vF_U4u4lw" width="360px"></iframe>
-</div>
-<h3>アーティストから一言</h3>
-<p>どんなに小さくても、何か1つ誇れるものがあるのなら、それだけで彩り豊かな道を歩んでいける、そんな想いを込めました。</p>
-<p>歌詞は<a href="/2015/themesong_vote/irodorinosenritsu/">こちら</a>から</p>
-<input type="button" onClick="vote('彩りの旋律(Rush Works)')" value="この曲に投票する">
-<h2>「星空協奏曲」ハジマリノマチ</h2>
-<div class="logo_f">
-<iframe frameborder="0" height="213.75px" src="https://www.youtube.com/embed/dCJD9xP9RmE" width="360px"></iframe>
-</div>
-<h3>アーティストから一言</h3>
-<p>それぞれの誇りを讃えあい、紡ぎあうことで真に完成する「協奏曲」で一緒にこの早稲田を美しく輝かせよう！</p>
-<p>歌詞は<a href="/2015/themesong_vote/hoshizorakyousoukyoku/">こちら</a>から</p>
-<input type="button" onClick="vote('星空協奏曲(ハジマリノマチ)')" value="この曲に投票する">
-<h2>投票期間</h2>
-<P>9月12日(土) 12:00～9月26日(土) 23:59
-</p>
-<h2>投票方法</h2>
-<h3>①公式サイトからの投票</h3>
-<p>「早稲田祭2015」公式サイトの投票専用フォームにて投票を受け付けます。最大で計3回の投票が可能です。</p>
-<ul>
-	<li>第1回 9月12日(土) 12:00～9月17日(木) 23:59</li>
-	<li>第2回 9月18日(金) 12:00～9月23日(水) 23:59</li>
-	<li>第3回 9月24日(木) 12:00～9月26日(土) 23:59</li>
-</ul>
-<h3>②公式Twitterアカウント</h3>
-<p>「早稲田祭2015」公式Twitterアカウントにて、各候補曲のツイートが計3回ずつ投稿されます。それらのツイートへのお気に入りの総数がTwitterからの得票数となります。 公式Twitterアカウントをフォローして、お気に入りの曲に投票しましょう！</p>
-<h3>③公式YouTubeチャンネル</h3>
-<p>「早稲田祭2015」公式YouTubeチャンネルにアップされた各曲の動画のgoodボタンの回数が、1回1票として得票数に換算されます。</p><a href="https://www.youtube.com/user/WasedasaiOfficial">公式YouTubeチャンネルのリンク</a>
-<p>あなたの投票で「早稲田祭2015」を彩る1曲を決めませんか？たくさんの投票、お待ちしております！</p>
+	<section class="contentChild">
+        <div class="ctcontent">
+
+		<h2 class="mb31">「早稲田祭2015」公式テーマソング投票開始！</h2>
+			<p class="text">「早稲田祭2015」公式テーマソングの投票が始まりました！多数の応募の中、早稲田祭運営スタッフによる1次選考を通過したのは以下の4つの楽曲です。「誇りが彩る、都の西北」をキャッチコピーに掲げ、早稲田に関わる人々の様々な「誇り」によって彩られる「早稲田祭2015」にふさわしいと思う1曲への投票をよろしくお願いします！</p>
+			
+		<h2 class="mb31">「Shine!!!」TIME PARADOX LAND</h2>
+			<p class="textAbout"><iframe frameborder="0" height="213.75px" src="https://www.youtube.com/embed/L7K8bNlVe7M" width="360px"></iframe></p>
+		<h3 class="mb31">アーティストから一言</h3>
+			<p class="textAbout">この曲は、誰もが誇りを持てるようにという応援ソングです。作詞作曲からレコーディングまで3人で頑張って作ったのでぜひ聴いてほしいです！よろしくお願いします！
+				<br>
+				歌詞は<a href="/2015/themesong_vote/shine/">こちら</a>から
+			<input type="button" onClick="vote('Shine(TIME PARADOX LAND)')" value="この曲に投票する"></p>
+
+		<h2 class="mb31">「アンカー」the Whole Nine Yards</h2>
+			<p class="textAbout"><iframe frameborder="0" height="213.75px" src="https://www.youtube.com/embed/2ZE6VBfwHEc" width="360px"></iframe></p>
+		<h3 class="mb31">アーティストから一言</h3>
+				<p class="textAbout">夢を追いながら人は必ず不安と戦っています。そこで立ち止まることなく、自分の意志と仲間の支えを誇りに最後まで走り切ってほしいと思い「アンカー」を書きました。<br>
+				歌詞は<a href="/2015/themesong_vote/anchor/">こちら</a>から
+			<input type="button" onClick="vote('アンカー(the Whole Nine Yards)')" value="この曲に投票する"></p>
+
+		<h2 class="mb31">「彩りの旋律」Rush Works</h2>
+			<p class="textAbout"><iframe frameborder="0" height="213.75px" src="https://www.youtube.com/embed/K2vF_U4u4lw" width="360px"></iframe></p>
+		<h3 class="mb31">アーティストから一言</h3>
+				<p class="textAbout">どんなに小さくても、何か1つ誇れるものがあるのなら、それだけで彩り豊かな道を歩んでいける、そんな想いを込めました。<br>
+				歌詞は<a href="/2015/themesong_vote/irodorinosenritsu/">こちら</a>から
+			<input type="button" onClick="vote('彩りの旋律(Rush Works)')" value="この曲に投票する"></p>
+
+		<h2 class="mb31">「星空協奏曲」ハジマリノマチ</h2>
+			<p class="textAbout"><iframe frameborder="0" height="213.75px" src="https://www.youtube.com/embed/dCJD9xP9RmE" width="360px"></iframe></p>
+		<h3 class="mb31">アーティストから一言</h3>
+				<p class="textAbout">それぞれの誇りを讃えあい、紡ぎあうことで真に完成する「協奏曲」で一緒にこの早稲田を美しく輝かせよう！
+					<br>
+				歌詞は<a href="/2015/themesong_vote/hoshizorakyousoukyoku/">こちら</a>から
+			<input type="button" onClick="vote('星空協奏曲(ハジマリノマチ)')" value="この曲に投票する"></p>
+
+		<h2 class="mb31">投票期間</h2>
+				<P class="textAbout">9月12日(土) 12:00～9月26日(土) 23:59</p>
+
+		<h2 class="mb31">投票方法</h2>
+
+		<h3 class="mb31">①公式サイトからの投票</h3>
+				<p class="text">「早稲田祭2015」公式サイトの投票専用フォームにて投票を受け付けます。最大で計3回の投票が可能です。</p>
+					<ul class="text">
+						<li>第1回 9月12日(土) 12:00～9月17日(木) 23:59</li>
+						<li>第2回 9月18日(金) 12:00～9月23日(水) 23:59</li>
+						<li>第3回 9月24日(木) 12:00～9月26日(土) 23:59</li>
+					</ul>
+				
+		<h3 class="mb31">②公式Twitterアカウント</h3>
+				<p class="text">「早稲田祭2015」公式Twitterアカウントにて、各候補曲のツイートが計3回ずつ投稿されます。それらのツイートへのお気に入りの総数がTwitterからの得票数となります。 公式Twitterアカウントをフォローして、お気に入りの曲に投票しましょう！</p>
+
+		<h3 class="mb31">③公式YouTubeチャンネル</h3>
+				<p class="text">「早稲田祭2015」公式YouTubeチャンネルにアップされた各曲の動画のgoodボタンの回数が、1回1票として得票数に換算されます。</p><a href="https://www.youtube.com/user/WasedasaiOfficial">公式YouTubeチャンネルのリンク</a>
+				<p class="text">あなたの投票で「早稲田祭2015」を彩る1曲を決めませんか？たくさんの投票、お待ちしております！</p>
 </div>
 
 <footer class="footer">
