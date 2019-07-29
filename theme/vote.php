@@ -140,7 +140,7 @@
         <div class="ctcontent">
 			<h2 class="mb31 h2cs">公式テーマソング投票</h2>
 		
-			<p class="text"><?php echo $result ?></p>
+			<p class="textAbout"><?php echo $result ?></p>
 		</div>
 	</section>
 		
