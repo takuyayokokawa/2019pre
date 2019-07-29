@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="ja">
 
@@ -25,9 +26,27 @@
     <meta name="keywords" content="早稲田,早稲田祭,2019,早稲田大学,早大,早稲田祭2019の公式サイト。
     ,学園祭,大学,waseda,wasedasai">
 	<meta name="theme-color" content="#8c82af">
-	<script type="text/javascript" src="vote.js"></script>
+
+	<?php
+	$pagetitle = array("公式テーマソング投票", "Themesong_vote");
+	$style = "./2015/css/style.css";
+	include_once($_SERVER["DOCUMENT_ROOT"]."/2015/header.php");
+?>
+<form name = "voteForm" action = "vote.php" method = "post">
+	<input type = "hidden" name = "vote" value = "test">
+</form>
+<script src = "vote.js">
+
+<!--[if lt IE 9]>
+<script src="http://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>script src="http://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js">
+</script>
+<![endif]-->
+	
 </head>
+
+
 <body>
+
     <section class="childHeader">
         <h1><a href="index.html"><img src="design/images/logo-white.svg" width="500" alt="早稲田祭2019 公式サイト"></a></h1>
     </section>
@@ -41,7 +60,7 @@
                 <a href="participants.html">参加団体・参加者の方へ</a>
             </li>
             <li>
-                <a href="themesong.html">テーマソングについて</a>
+                <a href="index.php">テーマソングについて</a>
             </li>
             <li>
                 <a href="companies.html">企業の方へ</a>
@@ -55,95 +74,58 @@
         </ul>
 	</nav>
 	
-<form name = "voteForm" action = "vote.php" method = "post">
-	<input type = "hidden" name = "vote" value = "test">
-</form>
-<form name = "voteForm" action = "vote.php" method = "post">
-	<input type = "hidden" name = "vote" value = "test">
-</form>
-<script src = "vote.js">
+	<section class="contentChild">
+        <div class="ctcontent">
 
-<!--[if lt IE 9]>
-<script src="http://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>script src="http://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js">
-</script>
-<![endif]-->
-<?php
+		<h2 class="mb31">早稲田祭2019公式テーマソング<br>投票概要</h2>
+		<p class="text" style="padding-bottom:0;">今年も1次選考を通過した4曲の中から、みなさまの投票によって公式テーマソングを決定いたします。</p>
+                <h3 class="mb31">投票期間</h3>
+                <p class="text" style="padding-bottom:0;">7月30日(火)～8月13日(火)</p>
+                <p class="text" style="padding-bottom:0;">以下の各投票期間に1回ずつ、計2回の投票が可能です。</p>
+                <p class="text" style="padding-bottom:0;">第1回投票期間<br>
+                    7月30日(火) 9:00～8月5日(月) 23:59</p>
+                <p class="text" style="padding-bottom:0;">第2回投票期間<br>
+                    8月7日(水) 9:00～8月13日(火) 23:59</p>
+                <br>
+				<br>
+		
+		<h2 class="mb31 h2cs">候補曲</h2>
+		<p class="text" style="padding-bottom:0;">候補曲は以下の4曲です。</p>
+		
+		<h3 class="mb31">エントリーNo.1 一等星/ Re:vision</h3>
+		<div class="youtube-container"><iframe width="90%" height="100%" src="https://www.youtube.com/embed/xUQnajLnreU?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+			<p class="textAbout">
+				
+			<input type="button" onClick="vote('一等星(Re:vision)')" value="この曲に投票する"></p>
 
-	// もし何もデータが渡ってなかったら
-	if(empty($_POST['vote'])){
-		echo "投票データがありません。";
-		exit;
-	}
+			<h3 class="mb31">エントリーNo.2 MasterPiece/ SEIREN</h3>
+			<div class="youtube-container"><iframe width="90%" height="100%" src="https://www.youtube.com/embed/NDwgL52BAOg?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+			<p class="textAbout">
+				
+			<input type="button" onClick="vote('MasterPiece(SEIREN)')" value="この曲に投票する"></p>
 
-	// 投票先取得
-	$vote = htmlspecialchars($_POST['vote']);
+			<h3 class="mb31">エントリーNo.3 道/ BASALAND</h3>
+			<div class="youtube-container"><iframe width="90%" height="100%" src="https://www.youtube.com/embed/A_PgLK3L9pw?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+				<p class="textAbout">
+				
+			<input type="button" onClick="vote('道(BASALAND)')" value="この曲に投票する"></p>
 
+			<h3 class="mb31">エントリーNo.4 days/ yuzames</h3>
+			<div class="youtube-container"><iframe width="90%" height="100%" src="https://www.youtube.com/embed/RJRv8RnYD04?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+			<p class="textAbout">
+				
+			<input type="button" onClick="vote('days(yuzames)')" value="この曲に投票する"></p>
 
-	// 投票ファイルの名前
-	// クッキーの名前も変わるから、もう一度投票できるようになる
-	$name = "theme3";
-
-	// ip取得
-	// 違うブラウザでも、同じ人と判定するため。
-	// 投票自体はできちゃうので、CSVファイルをエクセルとかで開いて集計するときに重複チェック。
-	$ipAddress = $_SERVER["REMOTE_ADDR"];
-
-	//日付取得
-	//データに入れるための日付
-	$voteDate = date('Y-m-d H:i:s');
-
-	//投票フラグを作成
-	$voteFlag = true;
-
-	// もしクッキーが残ってるなら
-	if(isset($_COOKIE[$name])){
-
-		// 投票できなくする
-		$voteFlag = false;
-
-	}
-
-	//書込みデータ用意
-	$data = $vote.",".$ipAddress.",".$voteDate."\r\n";
-
-	//ファイルを読み込み／書き込みで開く
-	$fp = fopen($name.'.csv','a+');
-
-	// 投票フラグが生きていれば
-	if($voteFlag){
-		if ($fp){
-			if (flock($fp, LOCK_EX)){
-				if (fwrite($fp,  $data) === FALSE){
-					$result = "投票に失敗しました。再度お試しください。";
-				}else{
-					$result = $vote."に投票しました。投票ありがとうございます。";
-				}
-				flock($fp, LOCK_UN);
-				//クッキー設定
-				setcookie($name,$voteDate,time()+60*60*24*30);
-			}else{
-			}
-		}else{
-			$result = "投票に失敗しました。再度お試しください。";
-		}
-	}else{
-		$result = "すでに投票を受け付けております。";
-	}
-
-?>
-
-	<div class="content_main">
-		<div class="wrapper">
-			<h1>公式テーマソング投票</h1>
+			<br>
+			<br>
+			
+			<h2 class="mb31 h2cs">得票数の不正について</h2>
+				<p class="text">規定回数以上の投票、得票数の水増しなど不正が図られたと運営スタッフが判断した場合、一部得票を無効にする場合がございます。ご了承ください</p>
+			
 		</div>
-	</div>
+	
 
-	<div class="wrapper1">
-		<div class="left">
-			<p><?php echo $result ?></p>
-		</div>
-
-		<footer class="footer">
+<footer class="footer">
 	<div class="ftsbtn clearfix">
 		<ul>
 			<li>
