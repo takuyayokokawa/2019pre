@@ -120,7 +120,7 @@
 				<br>
 			<input type="button" onClick="vote('道(BASALAND)')" value="この曲に投票する"></p>
 
-			<h3 class="mb31">エントリーNo.4 days/ yuzames</h3>
+			<h3 class="mb31">エントリーNo.4 days/ yuzame</h3>
 			<div class="youtube-container"><iframe width="90%" height="100%" src="https://www.youtube.com/embed/KwnqrhBDVSA?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
 			<p class="textAbout">
 			<b>アーティストから一言</b>
