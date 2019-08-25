@@ -89,46 +89,61 @@
                 <br>
 				<br>
 		
-		<h2 class="mb31 h2cs">候補曲</h2>
+				<h2 class="mb31 h2cs">候補曲</h2>
 		<p class="text" style="padding-bottom:0;">候補曲は以下の4曲です。</p>
 		
-		<h3 class="mb31">エントリーNo.1 一等星/ Re:vision</h3>
-		<div class="youtube-container"><iframe width="90%" height="100%" src="https://www.youtube.com/embed/xUQnajLnreU?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+			<h3 class="mb31 tv">エントリーNo.1 一等星/ Re:vision</h3>
+			
+			<div class="youtube-container"><iframe width="90%" height="100%" src="https://www.youtube.com/embed/xUQnajLnreU?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
 			<p class="textAbout">
 			<b>アーティストから一言</b>
 				<br>
-				いまを時めく」のはこの瞬間にしかできないこと。努力を重ね、さまざまな場所で活躍している早大生に「いまを大切に、最高に輝いてほしい」という想いを込めました。
+				「いまを時めく」のはこの瞬間にしかできないこと。努力を重ね、さまざまな場所で活躍している早大生に「いまを大切に、最高に輝いてほしい」という想いを込めました。
 				<br>
-			<input type="button" onClick="vote('一等星(Re:vision)')" value="この曲に投票する"></p>
+			</p>
 
-			<h3 class="mb31">エントリーNo.2 MasterPiece/ SEIREN</h3>
+			<h3 class="mb31 tv">エントリーNo.2 MasterPiece/ SEIREN</h3>
+			
 			<div class="youtube-container"><iframe width="90%" height="100%" src="https://www.youtube.com/embed/NDwgL52BAOg?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
 			<p class="textAbout">
 			<b>アーティストから一言</b>
 				<br>
 				令和を彩る極上テーマソング<br>
 				早稲田祭2019に賭ける早大生の、数えきれない程の一マスターピースが集まった時、どんな物語が生まれるのだろう。
-				<br>	
-			<input type="button" onClick="vote('MasterPiece(SEIREN)')" value="この曲に投票する"></p>
+				<br>
+			</p>
 
-			<h3 class="mb31">エントリーNo.3 道/ BASALAND</h3>
+			<h3 class="mb31 tv">エントリーNo.3 道/ BASALAND</h3>
+			
 			<div class="youtube-container"><iframe width="90%" height="100%" src="https://www.youtube.com/embed/A_PgLK3L9pw?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
 				<p class="textAbout">
 				<b>アーティストから一言</b>
 				<br>
 				早稲田祭2019に向けて頑張るあなたに寄り添いたいという想いを込めてつくりました。一生に一度しかない「いま」が、あなたの人生でかけがえのない軌跡となりますように。
 				<br>
-			<input type="button" onClick="vote('道(BASALAND)')" value="この曲に投票する"></p>
+			</p>
 
-			<h3 class="mb31">エントリーNo.4 days/ yuzame</h3>
+			<h3 class="mb31 tv">エントリーNo.4 days/ yuzame</h3>
+			
 			<div class="youtube-container"><iframe width="90%" height="100%" src="https://www.youtube.com/embed/KwnqrhBDVSA?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
 			<p class="textAbout">
 			<b>アーティストから一言</b>
 				<br>
 				「時めく」学生が連鎖的に広がり、素晴らしい早稲田祭2019をつくり上げたい、そして伝統を踏まえながらも新たな歴史を生み出したいという意志を込めた曲となっています。
 				<br>
-			<input type="button" onClick="vote('days(yuzames)')" value="この曲に投票する"></p>
+			</p>
 
+			<br>
+			<br>
+			<h2 class="mb31 h2cs">投票受付中</h2>
+				<p class="textAbout">下のボタンをクリックすると、投票が完了いたします。
+				クリックすると変更ができませんので、お間違いのないようご注意ください。</p>
+
+				<p class="textAbout"><input type="button" onClick="vote('一等星(Re:vision)')" class="vote_button" value="一等星/ Re:vision に投票する"></p>
+				<p class="textAbout"><input type="button" onClick="vote('MasterPiece(SEIREN)')" class="vote_button" value="MasterPiece/ SEIREN に投票する"></p>
+				<p class="textAbout"><input type="button" onClick="vote('道(BASALAND)')" class="vote_button" value="道/ BASALANDに投票する"></p>
+				<p class="textAbout"><input type="button" onClick="vote('days(yuzame)')" class="vote_button" value="days/ yuzameに投票する"></p>
+			
 			<br>
 			<br>
 			
