@@ -665,3 +665,18 @@ section {
 	background: #fefcf9;
 }
 
+.weblink{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap:12px;
+	margin-top: 5%;
+	margin-bottom: 50px;
+}
+
+.sp_bn img{
+	width:40vh;
+}
+
+.sp_bn{
+	margin:10px;
+}
